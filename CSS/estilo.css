@@ -1,0 +1,36 @@
+body{
+    background-color: #226678;/* cor do planon de fundo*/
+    color: #00ffaa;/* cor da fonte*/
+    font-size: 15px;/*tamanho da fonte*/
+    margin: 0; /* margem em relação a tela*/
+}/*Comentarios*/
+
+header{
+    border: 2px solid #000;
+    text-align: center;
+    
+}/*seletor de cabeçalho*/
+
+li{
+    color: #fff;
+    list-style-type: none;/*remover as bolinhas do topico*/
+    display: inline;/*transformar coluna el linha*/
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #000;
+}
+
+li:hover{
+    background-color: #444;
+    font-size: 30px;
+    font-family: "trebuchet MS";
+}/*MOdifica o conteudo original da tag*/
+.titulo{
+    border: 2px solid #665
+}
+
+aside{
+    background-image: url("../IMAGEM/coringao.jpg");
+    background-repeat: no-repeat;
+
+}
